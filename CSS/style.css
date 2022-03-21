@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Arial black', helvetica,sans-serif;
+}
+main{
+    font-family:'Arial black', helvetica,sans-serif; 
+}
+.picture_container {
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+   
+}
+.picture{
+    background-image: url("../assets/Rainha_do_açai.jpg");
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height:100%;
+}
+.nav_container{
+    background-color:#7a0b48 ;
+    height: 600px;
+    text-align: center;
+    display: relative;
+    box-sizing: border-box;
+   
+} 
+.titulo{
+    padding-top:5rem;
+}
+.logo1{
+    width: 6rem;
+    margin-top: 5rem;
+}
+.title1{
+    color:white;
+    font-size: 4rem;
+}
+.title2{
+    color: #efc62f;
+    font-size: 2.5rem;
+}
+.button{
+    background-color: #efc62f;
+    display:inline-block;
+    
+    border-radius: 20px;
+    color:#7a0b48;
+    margin-top: 5rem;
+}
+.link:hover{
+   color:#efc62f; 
+
+   background-color: #7a0b48;
+   padding: 0;
+   border-radius:0;
+  
+   
+}
+a:visited{
+    color:#7a0b48;
+}
+.footer{
+    height: 500px
+}
+.address{
+    text-align: left;
+    padding: 50px 20px 30px 30px; 
+    
+}
+.footer_title{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.address_info{
+    padding: 30px 20px;
+    line-height: 1.8;
+}
+.picture_location{
+    width: 300px;
+    display: inline-block;
+    padding-left:20px;
+}
+.picture_location:hover{
+    border:solid 1px black;
+}
+.contact {
+    
+    padding: 50px 20px 30px 60px; 
+    margin:0
+}
+.contact_info{
+    padding-left: 30px;
+    line-height: 35px;
+}
+.instagram{
+    list-style-image: url("../assets/instagram.png");
+    padding: 0;
+}
+.whatsapp{
+    list-style-image: url("../assets/whatsapp.png");
+    padding: 0;
+}
+.contact_info:visited{
+    color:black;
+}
+.contact_info:hover{
+    color:#efc62f;
+}
+a{text-decoration: none;}
+
+.rodape{
+    padding: 50px;
+    background-color: #7a0b48;
+    text-align: center;
+}
+.button2{
+    background-color: #efc62f;
+    display:inline-block;
+    border-radius: 20px;
+    color:#7a0b48;
+    text-align: center;
+}
